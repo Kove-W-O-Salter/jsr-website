@@ -10,8 +10,9 @@
         <div class="container">
             <div class="about">
                 <?php
-                $handle = fopen('./about.txt', 'r');
-                echo fread($handle, filesize($handle));
+                $filename = './about.html';
+                $handle = fopen($filename, 'r');
+                echo fread($handle, filesize($filename));
                 fclose($handle);
                 ?>
             </div>
