@@ -28,7 +28,7 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
              x[i].style.display = "none";  
           }
           x[slideIndex-1].style.display = "block";
-          console.log('image ' + slideIndex-1);
+          console.log('image ' + (slideIndex-1));
         }
         </script>
     </head>
