@@ -1,7 +1,7 @@
 
 <?php require './global.php'; ?>
 <?php
-    $rooms_room_id = $_GET['rooms_room_id'];
+    $rooms_room_id = $_GET['room_id'];
     $rooms_room = $global_rooms[$rooms_room_id - 1];
     echo '<br> rooms_ROOM_ID = ' . $rooms_room_id . '<br>';
     echo '<br> ROOM_DUMP = ';
