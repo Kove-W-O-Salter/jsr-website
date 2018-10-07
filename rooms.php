@@ -22,13 +22,18 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
         function showDivs(n) {
           var i;
           var x = document.getElementsByClassName("slideShow");
-          if (n > x.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = x.length}
-          for (i = 0; i < x.length; i++) {
-             x[i].style.display = "none";  
+          if (n > x.length) {
+            slideIndex = 1;
           }
-          x[slideIndex-1].style.display = "block";
-          console.log('image ' + (slideIndex-1));
+          if (n < 1) {
+            slideIndex = x.length;
+          }
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          slideIndex+=n;
+          x[slideIndex].style.display = "block";
+          console.log('image ' + (slideIndex));
         }
         </script>
     </head>
