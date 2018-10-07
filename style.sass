@@ -47,10 +47,12 @@ $button_hover_background: #00cc00
 .banner_navbar_button 
     @extend %std_button
 
-.banner_navbar_button:hover
-    // background-color: $button_hover_background
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+%shadow_box
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 7px 21px 0 rgba(0, 0, 0, 0.19)
 
+.banner_navbar_button:hover
+    @extend %shadow_box
+    // background-color: $button_hover_background
 
 .banner_navbar_dropdown
     position: relative
@@ -68,8 +70,9 @@ $button_hover_background: #00cc00
 
 .banner_navbar_dropdown_items
     button:hover
+        @extend %shadow_box
         // background-color: $button_hover_background
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 
 .banner_navbar_dropdown:hover .banner_navbar_dropdown_items
     display: block
