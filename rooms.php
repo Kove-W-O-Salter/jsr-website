@@ -13,9 +13,9 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
     	<link rel="stylesheet" href="./style.css">
         <script>
             var image_index = 1;
-            slideShow(image_index);
+            getSlideShowElement(image_index);
 
-            function slideShow(inc) {
+            function getSlideShowElement(inc) {
                 let images = document.getElementsByClassName("slideShow");
                 
                 if (image_index > images.length {
@@ -43,8 +43,8 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
                 echo '<img class=\'slideShow\' src=\'./images/' . $image . '\' style="width:50%"/>';
             }
             ?>
-            <button onclick="slideShow(+1)" class='normal_button'> NEXT </button>
-            <button onclick="slideShow(-1)" class='normal_button'> PREVIOUS </button>
+            <button onclick="getSlideShowElement(+1)" class='normal_button'> NEXT </button>
+            <button onclick="getSlideShowElement(-1)" class='normal_button'> PREVIOUS </button>
             <?php echo $rooms_room->description; ?>
     	</div>
     </body>
