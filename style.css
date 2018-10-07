@@ -62,6 +62,7 @@
 }
 
 .banner_navbar_dropdown_items button {
+  margin: 0px;
   display: block;
 }
 
