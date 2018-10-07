@@ -13,24 +13,25 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
     	<link rel="stylesheet" href="./style.css">
         <script>
             var image_index = 1;
+            var images = document.getElementsByClassName("slideShow");
             getSlideShowElement(image_index);
 
             function getSlideShowElement(inc) {
-                let images = document.getElementsByClassName("slideShow");
-                
+                var i = 0;
+
                 if (image_index > images.length {
                     image_index = 1;
                 } else if (image_index < 0) {
                     image_index = images.length;
                 }
 
-                let newImages = images.forEach (function (image, index) {
-                    return image.style.display = "none";
-                });
+                for(i = 0; i < images.length; i++) {
+                    images[i].style.display = "none";
+                }
 
                 image_index += inc;
 
-                newImages[image_index - 1].style.display = "block";
+                images[image_index - 1].style.display = "block";
             }
         </script>
     </head>
