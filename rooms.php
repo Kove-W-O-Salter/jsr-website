@@ -12,7 +12,7 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
         <meta charset="UTF-8">
     	<link rel="stylesheet" href="./style.css">
         <script>
-            var image_index = 0;
+            var image_index = 1;
             slideShow(image_index);
 
             function slideShow(inc) {
