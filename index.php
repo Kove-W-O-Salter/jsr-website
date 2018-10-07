@@ -9,6 +9,7 @@
         <?php require './header.php' ?>
         <div class="container">
             <div class="about">
+                <?php echo var_dump($rooms) ?>
                 JSR (<i>John Salter Rooms</i>) is a small congregation of rental rooms on a wildlife reserve.
             </div>
         </div>
