@@ -18,10 +18,10 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
             function slideShow(inc) {
                 let images = document.getElementsByClassName("slideShow");
                 
-                if (image_index > images.length()) {
+                if (image_index > images.length {
                     image_index = 1;
                 } else if (image_index < 0) {
-                    image_index = images.length();
+                    image_index = images.length;
                 }
 
                 let newImages = images.forEach (function (image, index) {
