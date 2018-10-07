@@ -1,3 +1,5 @@
 <?php
-echo $scandir('/');
+foreach ($scandir('/') as $item) {
+	echo $item;
+}
 ?>
