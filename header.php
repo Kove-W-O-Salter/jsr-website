@@ -12,8 +12,12 @@
                 <div class="banner_navbar_dropdown_button"> ROOMS </div>
                 <div class="banner_navbar_dropdown_items">
                     <?php
-                    foreach ($rooms as $header_room) {
-                       echo '<a href=\'./rooms.php?room_id=' . $header_room->id . '\'>' . $header_room->name . '</a>';
+                    if (empty($global_rooms)) {
+                        echo '<b>No rooms</b>';
+                    } else {
+                        foreach ($global_rooms as $header_room) {
+                           echo '<a href=\'./rooms.php?id=' . $header_room->id . '\'>' . $header_room->name . '</a>';
+                        }
                     }
                     ?>
                 </div>

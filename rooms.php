@@ -1,14 +1,10 @@
-<?php require './global.php'; ?>
 <?php
-    $room_id = $_GET['room_id'];
-    $room = $rooms[$room_id - 1];
-    echo '<br> ROOM_ID = ' . $room_id . '<br>';
-    echo '<br> ROOM_DUMP = ';
-    var_dump($room);
-    echo '<br>';
-    echo '<br> ACTUAL_ROOM_ID = ' . $room->id . '<br>';
-    echo '<br> ACTUAL_ROOM_NAME = ' . $room->name . '<br>';
+require './global.php';
+
+$rooms_requested_room_id = $_GET['id'];
+$rooms_room = $global_rooms[$rooms_requested_room_id] or die ('No such room, with the id ' . $rooms_requested_room_id . ', exists.');
 ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -18,8 +14,10 @@
     <body>
         <?php require './header.php'; ?>
     	<div class='container'>
-    		<h1> <?php echo $room->name; ?> </h1>
-    		<?php echo $room->description; ?>
+            <?php
+            echo '<h1>' . $rooms_room->name . '</h1>';
+            echo $rooms_room->description;
+            ?>
     	</div>
     </body>
 </html>
