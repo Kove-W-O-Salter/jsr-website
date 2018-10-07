@@ -13,7 +13,7 @@
                 <div class="banner_navbar_dropdown_items">
                     <?php
                     foreach ($global_rooms as $header_room) {
-                       echo '<a href=\'./rooms.php?room_id=' . $header_room->id . '\'>' . $header_room->name . '</a>';
+                       echo '<a href=\'/rooms.php?room_id=' . $header_room->id . '\'>' . $header_room->name . '</a>';
                     }
                     ?>
                 </div>
