@@ -15,7 +15,7 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
     <body>
         <?php require './header.php'; ?>
     	<div class='container'>
-            <?php echo '<h1>' . $rooms_room->name . '</h1>'; ?>
+            <?php echo '<center><h1>' . $rooms_room->name . '</h1></center>'; ?>
             <div class='slideShow'>
                 <?php
                 foreach ($rooms_room->images->children() as $image) {
