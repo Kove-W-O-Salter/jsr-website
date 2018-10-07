@@ -18,7 +18,7 @@
                     ?>
                 </div>
             </div>
-            <a class="banner_navbar_button" href="/contact.php"> CONTACT </a>
+            <a class="banner_navbar_button" href="./contact.php"> CONTACT </a>
         </div>
     </div>
 </div>
