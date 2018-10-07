@@ -12,27 +12,23 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
         <meta charset="UTF-8">
     	<link rel="stylesheet" href="./style.css">
         <script>
-            var image_index = 1;
-            var images = document.getElementsByClassName("slideShow");
-            getSlideShowElement(image_index);
+        var slideIndex = 1;
+        showDivs(slideIndex);
 
-            function getSlideShowElement(inc) {
-                var i = 0;
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
 
-                if (image_index > images.length {
-                    image_index = 1;
-                } else if (image_index < 0) {
-                    image_index = images.length;
-                }
-
-                for(i = 0; i < images.length; i++) {
-                    images[i].style.display = "none";
-                }
-
-                image_index += inc;
-
-                images[image_index - 1].style.display = "block";
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1} 
+            if (n < 1) {slideIndex = x.length} ;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none"; 
             }
+            x[slideIndex-1].style.display = "block"; 
+        }
         </script>
     </head>
     <body>
@@ -42,11 +38,11 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
             <?php
             foreach ($rooms_room->images->children() as $image) {
                 echo $image . '<br>';
-                echo '<img class=\'slideShow\' src=\'./images/' . $image . '\' style="width:50%">';
+                echo '<img class=\'mySlides\' src=\'./images/' . $image . '\'>';
             }
             ?>
-            <button onclick="getSlideShowElement(+1)" class='normal_button'> NEXT </button>
-            <button onclick="getSlideShowElement(-1)" class='normal_button'> PREVIOUS </button>
+            <button onclick='getSlideShowElement(+1)' class='normal_button'> NEXT </button>
+            <button onclick='getSlideShowElement(-1)' class='normal_button'> PREVIOUS </button>
             <?php echo $rooms_room->description; ?>
     	</div>
     </body>
