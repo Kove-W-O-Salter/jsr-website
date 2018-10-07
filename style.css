@@ -89,7 +89,8 @@
 }
 
 .image {
-  max-width: 50%;
+  max-width: 100%;
+  border-width: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
