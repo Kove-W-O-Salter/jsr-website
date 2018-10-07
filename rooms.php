@@ -41,6 +41,7 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
             <?php echo '<h1>' . $rooms_room->name . '</h1>'; ?>
             <?php
             foreach ($rooms_room->images->children() as $image) {
+                echo $image . '<br>';
                 echo '<img class=\'slideShow\' src=\'./images/' . $image . '\' style="width:50%"/>';
             }
             ?>
