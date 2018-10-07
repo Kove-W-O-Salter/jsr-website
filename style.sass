@@ -1,5 +1,5 @@
-$button_background: green
-$button_hover_background: #00cc00
+$default_background: #009000
+$default_button_hover_background: #009900
 
 %shadow_box
     // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
@@ -11,7 +11,7 @@ $button_hover_background: #00cc00
     @extend %shadow_box
     border-style: solid
     border-width: 5px
-    border-color: green
+    border-color: $default_background
     border-radius: 10px
     padding: 5px
     margin-left: 10%
@@ -46,7 +46,7 @@ $button_hover_background: #00cc00
     border-width: 1px
     border-color: black
     color: black
-    background-color: $button_background
+    background-color: $default_background
     text-align: center
     text-decoration: none
     cursor: pointer
@@ -57,6 +57,7 @@ $button_hover_background: #00cc00
 .banner_navbar_button:hover
     @extend %shadow_box
     // background-color: $button_hover_background
+    background-color: $default_button_hover_background
 
 .banner_navbar_dropdown
     position: relative
@@ -81,6 +82,7 @@ $button_hover_background: #00cc00
         @extend %shadow_box
         // background-color: $button_hover_background
         // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        background-color: $default_button_hover_background
 
 .banner_navbar_dropdown:hover .banner_navbar_dropdown_items
     display: block
