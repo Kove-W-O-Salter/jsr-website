@@ -1,15 +1,15 @@
 <?php
-$contact_info = simplexml_load_file('/contact.xml');
+$contact_info = simplexml_load_file('./contact.xml');
 ?>
-<?php require '/global.php'; ?>
+<?php require './global.php'; ?>
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
-    	<link rel="stylesheet" href="/style.css">
+    	<link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <?php require '/header.php'; ?>
+        <?php require './header.php'; ?>
         <div class="container">
         	<table>
         		<tr>
