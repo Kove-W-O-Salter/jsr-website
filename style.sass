@@ -51,6 +51,10 @@ $default_button_hover_background: #00b300
 .normal_button
     @extend %std_button
 
+.normal_button:hover
+    @extend %shadow_box
+    background-color: $default_button_hover_background
+
 .banner_navbar_button 
     @extend %std_button
 
