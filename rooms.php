@@ -6,8 +6,9 @@
     	<link rel="stylesheet" href="./style.css">
     	<?php
     		$room_id = $_GET['room_id'];
-            echo '<br> ROOM_ID = ' . $room_id . '<br>';
     		$room = $rooms[$room_id - 1];
+            echo '<br> ROOM_ID = ' . $room_id . '<br>';
+            echo '<br> ROOM_DUMP = ' . var_dump($room) . '<br>';
     	?>
     </head>
     <body>
