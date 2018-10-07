@@ -1,134 +1,72 @@
 .container {
-    border-style: solid;
-    border-width: 5px;
-    border-color: green;
-    border-radius: 10px;
-
-    padding: 5px;
-
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 1%;
-    margin-top: 1%;
-
-    font-family: "Times New Roman", Times, serif;
+  border-style: solid;
+  border-width: 5px;
+  border-color: green;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .banner {
-    text-align: center;
-    text-decoration: none;
-
-    color: green;
+  text-align: center;
+  text-decoration: none;
+  color: green;
 }
 
 .banner_header {
-    font-size: 500%;
+  font-size: 500%;
 }
 
 .banner_sub_header {
-    font-size: 90%;
+  font-size: 90%;
 }
 
 .banner_navbar {
-    margin-bottom: 5px;
-    margin-top: 5px;
-
-    padding: 5px;
-
-    text-align: left;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 5px;
+  text-align: left;
 }
 
 .banner_navbar_button {
-    margin-left: 1px;
-    margin-right: 1px;
-
-    padding: 5px;
-
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    border-radius: 10px;
-
-    color: black;
-    background-color: green;
-
-    text-align: center;
-    text-decoration: none;
+  @extends %std_button;
 }
 
 .banner_navbar_dropdown_button {
-    margin-left: 1px;
-    margin-right: 1px;
-
-    padding: 5px;
-
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    border-radius: 10px;
-
-    color: black;
-    background-color: green;
-
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
+  @extends %std_button;
+  cursor: pointer;
 }
 
 .banner_navbar_dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .banner_navbar_dropdown_items {
-    margin-left: 1px;
-    margin-right: 1px;
-
-    padding: 5px;
-
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    border-radius: 10px;
-
-    color: black;
-    background-color: green;
-
-    text-align: center;
-    text-decoration: none;
-    display: none;
-    position: absolute;
-    z-index: 1;
+  @extends %std_button;
+  display: none;
+  position: absolute;
+  z-index: 1;
 }
 
 .banner_navbar_dropdown_items a {
-    margin-left: 1px;
-    margin-right: 1px;
-
-    padding: 5px;
-
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    border-radius: 10px;
-
-    color: black;
-    background-color: green;
-
-    text-align: center;
-    text-decoration: none;
-    display: block;
+  @extends %std_button;
+  display: block;
 }
 
 .banner_navbar_dropdown:hover .banner_navbar_dropdown_items {
-    display: block;
+  display: block;
 }
 
 .about {
-    text-align: left;
-    text-decoration: none;
-
-    font-size: 100%;
-
-    color: black;
+  text-align: left;
+  text-decoration: none;
+  font-size: 100%;
+  color: black;
 }
+
+/*# sourceMappingURL=style.css.map */
