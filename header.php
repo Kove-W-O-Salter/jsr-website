@@ -18,7 +18,7 @@
                     ?>
                 </div>
             </div>
-            <a class="banner_navbar_button" href="/contact.php"> CONTACT </a>
+            <button onclick="location.href='./contact.php'" class="banner_navbar_button"> CONTACT </button>
         </div>
     </div>
 </div>
