@@ -2,23 +2,7 @@
 require './global.php';
 
 $rooms_requested_room_id = $_GET['room_id'];
-echo '<br>';
-var_dump($rooms_requested_room_id);
-echo '<br>';
-
-$rooms_room = $global_rooms[$rooms_requested_room_id]; //echo 'Bad id'; //die ('No such room, with the id ' . $rooms_requested_room_id . ', exists.');
-
-// $rooms_room = false;
-
-// foreach ($global_rooms as $global_room) {
-//     if ($global_room->id === $rooms_requested_room_id) {
-//         $rooms_room = $global_room;
-//     }
-// }
-
-echo '<br>';
-var_dump($rooms_room);
-echo '<br>';
+$rooms_room = $global_rooms[$rooms_requested_room_id];
 ?>
 
 <!DOCTYPE html>
