@@ -38,7 +38,7 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
             <div class='container'>
                 <?php
                 foreach ($rooms_room->images as $image) {
-                    echo '<img class=\'slideShow\' src=\'./images/' . $image . '\'/>'
+                    echo '<img class=\'slideShow\' src=\'./images/' . $image . '\'/>';
                 }
                 ?>
                 <button onclick="showDivs(+1)"> &gt </button>
