@@ -42,7 +42,7 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
             <?php
             foreach ($rooms_room->images->children() as $image) {
                 echo $image . '<br>';
-                echo '<img class=\'slideShow\' src=\'./images/' . $image . '\' style="width:50%"/>';
+                echo '<img class=\'slideShow\' src=\'./images/' . $image . '\' style="width:50%">';
             }
             ?>
             <button onclick="getSlideShowElement(+1)" class='normal_button'> NEXT </button>
