@@ -23,8 +23,10 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
                 }
                 ?>
 
-                <button class="normal_button" onclick="plusDivs(-1)" style='text-align: center'>&#10094;</button>
-                <button class="normal_button" onclick="plusDivs(+1)" style='text-align: center'>&#10095;</button>
+                <center>
+                    <button class="normal_button" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="normal_button" onclick="plusDivs(+1)">&#10095;</button>
+                </center>
             </div>
             <?php echo $rooms_room->description; ?>
             
