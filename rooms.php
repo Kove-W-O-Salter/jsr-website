@@ -10,12 +10,9 @@
     	?>
     </head>
     <body>
+        <?php require './header.php' ?>
     	<div class='container'>
-    		<div class='banner'>
-    			<?php echo $room->name ?>
-    		</div>
-    	</div>
-    	<div class='container'>
+    		<h1> <?php echo $room->name ?> </h1>
     		<?php echo $room->description ?>
     	</div>
     </body>
