@@ -10,7 +10,7 @@
         <div class="container">
             <div class="about">
                 <?php
-                $handle = fopen('./about.html', 'r');
+                $handle = fopen('./about.txt', 'r');
                 echo freed($handle, file_size($handle));
                 fclose($handle);
                 ?>
