@@ -88,6 +88,10 @@
   color: black;
 }
 
+.slideShow {
+  text-align: center;
+}
+
 .mySlides {
   display: none;
 }
