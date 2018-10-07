@@ -4,7 +4,7 @@ echo '<br>';
 var_dump($global_rooms_xml);
 echo '<br>';
 
-$global_rooms = $global_rooms_xml->children()->room;
+$global_rooms = $global_rooms_xml->children();
 echo '<br>';
 var_dump($global_rooms);
 echo '<br>';
