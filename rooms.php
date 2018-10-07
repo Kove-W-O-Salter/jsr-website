@@ -41,8 +41,8 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
                 echo '<img class=\'mySlides\' src=\'./images/' . $image . '\'>';
             }
             ?>
-            <button onclick='getSlideShowElement(+1)' class='normal_button'> NEXT </button>
-            <button onclick='getSlideShowElement(-1)' class='normal_button'> PREVIOUS </button>
+            <button class="normal_button" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="normal_button" onclick="plusDivs(+1)">&#10095;</button>
             <?php echo $rooms_room->description; ?>
     	</div>
     </body>
