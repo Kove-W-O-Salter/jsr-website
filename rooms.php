@@ -1,4 +1,4 @@
-<?php require './global.php' ?>
+<?php require './global.php'; ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,7 +12,7 @@
     	?>
     </head>
     <body>
-        <?php require './header.php' ?>
+        <?php require './header.php'; ?>
     	<div class='container'>
     		<h1> <?php echo $room->name ?> </h1>
     		<?php echo $room->description ?>
