@@ -41,16 +41,19 @@
   border-width: 1px;
   border-color: black;
   color: black;
-  background-color: green;
+  background-color: #009933;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
 }
 
+.banner_navbar_button:hover {
+  background-color: #00cc00;
+}
+
 .banner_navbar_dropdown {
   position: relative;
   display: inline-block;
-  padding: 0px;
 }
 
 .banner_navbar_dropdown_items {
@@ -59,8 +62,6 @@
 }
 
 .banner_navbar_dropdown_items button {
-  margin-left: 0px;
-  margin-right: 0px;
   display: block;
 }
 

@@ -1,3 +1,6 @@
+$button_background: #009933
+$button_hover_background: #00cc00
+
 .container
     border-style: solid
     border-width: 5px
@@ -37,7 +40,7 @@
     border-color: black
     // border-radius: 10px
     color: black
-    background-color: green
+    background-color: $button_background
     text-align: center
     text-decoration: none
     cursor: pointer
@@ -45,10 +48,12 @@
 .banner_navbar_button 
     @extend %std_button
 
+.banner_navbar_button:hover
+    background-color: $button_hover_background
+
 .banner_navbar_dropdown
     position: relative
     display: inline-block
-    padding: 0px
 
 .banner_navbar_dropdown_items
     @extend %std_button
@@ -59,8 +64,6 @@
 .banner_navbar_dropdown_items
     button
         @extend %std_button
-        margin-left: 0px
-        margin-right: 0px
         display: block
 
 .banner_navbar_dropdown:hover .banner_navbar_dropdown_items
