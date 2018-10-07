@@ -2,7 +2,7 @@
 <?php require './global.php'; ?>
 <?php
     $rooms_room_id = $_GET['room_id'];
-    $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the id \'' . $rooms_room_id . '\', exists.');
+    $rooms_room = $global_rooms[$rooms_room_id] or die('No such room, with the id \'' . $rooms_room_id . '\', exists.');
 ?>
 
 <!DOCTYPE html>
