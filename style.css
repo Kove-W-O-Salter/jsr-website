@@ -65,6 +65,10 @@
   display: block;
 }
 
+.banner_navbar_dropdown_items button:hover {
+  background-color: #00cc00;
+}
+
 .banner_navbar_dropdown:hover .banner_navbar_dropdown_items {
   display: block;
 }
