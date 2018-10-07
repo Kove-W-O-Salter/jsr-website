@@ -1,5 +1,5 @@
 .banner_navbar_dropdown_items button:hover, .banner_navbar_button:hover, .container {
-  box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 0 12px 26px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .container {
@@ -86,6 +86,11 @@
   text-decoration: none;
   font-size: 100%;
   color: black;
+}
+
+.slideShow {
+  display: none;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

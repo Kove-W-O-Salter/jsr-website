@@ -1,12 +1,8 @@
 $default_background: #009000
-// $default_button_hover_background: #009900
 $default_button_hover_background: #00b300
 
 %shadow_box
-    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-    // box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 7px 21px 0 rgba(0, 0, 0, 0.19)
-    // box-shadow: 0 7px 11px 0 rgba(0, 0, 0, 0.2), 0 9px 23px 0 rgba(0, 0, 0, 0.19)
-    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 0 12px 26px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 
 .container
     @extend %shadow_box
@@ -57,7 +53,6 @@ $default_button_hover_background: #00b300
 
 .banner_navbar_button:hover
     @extend %shadow_box
-    // background-color: $button_hover_background
     background-color: $default_button_hover_background
 
 .banner_navbar_dropdown
@@ -81,8 +76,6 @@ $default_button_hover_background: #00b300
 .banner_navbar_dropdown_items
     button:hover
         @extend %shadow_box
-        // background-color: $button_hover_background
-        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
         background-color: $default_button_hover_background
 
 .banner_navbar_dropdown:hover .banner_navbar_dropdown_items
@@ -93,3 +86,7 @@ $default_button_hover_background: #00b300
     text-decoration: none
     font-size: 100%
     color: black
+
+.slideShow
+    display: none
+    width: 100%

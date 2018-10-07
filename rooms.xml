@@ -7,6 +7,12 @@
 			This is the first room.
 			It has all of the things you'd expect, being the first room.
 		</description>
+		<images>
+			<image>test.png</image>
+			<image>test2.png</image>
+			<image>test3.png</image>
+			<image>test4.png</image>
+		</images>
 	</room>
 	<room>
 		<id>2</id>
@@ -15,6 +21,12 @@
 			This is the first room.
 			It has all of the things you'd expect, being the first room.
 		</description>
+		<images>
+			<image>test.png</image>
+			<image>test2.png</image>
+			<image>test3.png</image>
+			<image>test4.png</image>
+		</images>
 	</room>
 	<room>
 		<id>3</id>
@@ -23,6 +35,12 @@
 			This is the first room.
 			It has all of the things you'd expect, being the first room.
 		</description>
+		<images>
+			<image>test.png</image>
+			<image>test2.png</image>
+			<image>test3.png</image>
+			<image>test4.png</image>
+		</images>
 	</room>
 	<room>
 		<id>4</id>
@@ -31,6 +49,12 @@
 			This is the first room.
 			It has all of the things you'd expect, being the first room.
 		</description>
+		<images>
+			<image>test.png</image>
+			<image>test2.png</image>
+			<image>test3.png</image>
+			<image>test4.png</image>
+		</images>
 	</room>
 	<room>
 		<id>5</id>
@@ -39,6 +63,12 @@
 			This is the first room.
 			It has all of the things you'd expect, being the first room.
 		</description>
+		<images>
+			<image>test.png</image>
+			<image>test2.png</image>
+			<image>test3.png</image>
+			<image>test4.png</image>
+		</images>
 	</room>
 	<room>
 		<id>6</id>
@@ -47,6 +77,12 @@
 			This is the first room.
 			It has all of the things you'd expect, being the first room.
 		</description>
+		<images>
+			<image>test.png</image>
+			<image>test2.png</image>
+			<image>test3.png</image>
+			<image>test4.png</image>
+		</images>
 	</room>
 	<room>
 		<id>7</id>
@@ -55,6 +91,12 @@
 			This is the first room.
 			It has all of the things you'd expect, being the first room.
 		</description>
+		<images>
+			<image>test.png</image>
+			<image>test2.png</image>
+			<image>test3.png</image>
+			<image>test4.png</image>
+		</images>
 	</room>
 	<room>
 		<id>8</id>
@@ -63,6 +105,12 @@
 			This is the first room.
 			It has all of the things you'd expect, being the first room.
 		</description>
+		<images>
+			<image>test.png</image>
+			<image>test2.png</image>
+			<image>test3.png</image>
+			<image>test4.png</image>
+		</images>
 	</room>
 	<room>
 		<id>9</id>
@@ -71,6 +119,12 @@
 			This is the first room.
 			It has all of the things you'd expect, being the first room.
 		</description>
+		<images>
+			<image>test.png</image>
+			<image>test2.png</image>
+			<image>test3.png</image>
+			<image>test4.png</image>
+		</images>
 	</room>
 	<room>
 		<id>10</id>
@@ -79,5 +133,11 @@
 			This is the first room.
 			It has all of the things you'd expect, being the first room.
 		</description>
+		<images>
+			<image>test.png</image>
+			<image>test2.png</image>
+			<image>test3.png</image>
+			<image>test4.png</image>
+		</images>
 	</room>
 </rooms>
