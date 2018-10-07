@@ -1,4 +1,4 @@
-<?php require '/global.php'; ?>
+<?php require './global.php'; ?>
 <!DOCTYPE html>
 <html>
     <head>
