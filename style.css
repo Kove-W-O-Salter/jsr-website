@@ -88,10 +88,9 @@
   color: black;
 }
 
-.image {
-  max-width: 100%;
-  border-width: 5px;
-  border-color: #009000;
+.slideShow {
+  display: none;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
