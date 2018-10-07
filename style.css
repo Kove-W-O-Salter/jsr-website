@@ -32,7 +32,7 @@
   text-align: left;
 }
 
-.banner_navbar_dropdown_items a, .banner_navbar_dropdown_items, .banner_navbar_dropdown_button, .banner_navbar_button {
+.banner_navbar_dropdown_items button, .banner_navbar_dropdown_items, .banner_navbar_dropdown_button, .banner_navbar_button {
   width: 100px;
   margin-left: 1px;
   margin-right: 1px;
@@ -58,7 +58,7 @@
   z-index: 1;
 }
 
-.banner_navbar_dropdown_items a {
+.banner_navbar_dropdown_items button {
   display: block;
 }
 

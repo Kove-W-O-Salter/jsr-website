@@ -7,13 +7,13 @@
             John Salter Rooms
         </div>
         <div class="banner_navbar">
-            <a class="banner_navbar_button" href="/"> HOME </a>
+            <button onclick="location.href='/'" class="banner_navbar_button"> HOME </button>
             <div class="banner_navbar_dropdown">
                 <div class="banner_navbar_dropdown_button"> ROOMS </div>
                 <div class="banner_navbar_dropdown_items">
                     <?php
                     foreach ($global_rooms as $header_room) {
-                       echo '<a href=\'/rooms.php?room_id=' . $header_room->id . '\'>' . $header_room->name . '</a>';
+                       echo '<button onclick="location.href=\'' . $header_room->id . '\'">' . $header_room->name . '</button>';
                     }
                     ?>
                 </div>
