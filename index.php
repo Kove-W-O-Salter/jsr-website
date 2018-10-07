@@ -9,7 +9,11 @@
         <?php require './header.php'; ?>
         <div class="container">
             <div class="about">
-                JSR (<i>John Salter Rooms</i>) is a small congregation of rental rooms on a wildlife reserve.
+                <?php
+                $handle = fopen('./about.html', 'r');
+                echo freed($handle, file_size($handle));
+                fclose($handle);
+                ?>
             </div>
         </div>
     </body>
