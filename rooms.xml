@@ -56,4 +56,28 @@
 			It has all of the things you'd expect, being the first room.
 		</description>
 	</room>
+	<room>
+		<id>8</id>
+		<name>Room 8</name>
+		<description>
+			This is the first room.
+			It has all of the things you'd expect, being the first room.
+		</description>
+	</room>
+	<room>
+		<id>9</id>
+		<name>Room 9</name>
+		<description>
+			This is the first room.
+			It has all of the things you'd expect, being the first room.
+		</description>
+	</room>
+	<room>
+		<id>10</id>
+		<name>Room 10</name>
+		<description>
+			This is the first room.
+			It has all of the things you'd expect, being the first room.
+		</description>
+	</room>
 </rooms>
