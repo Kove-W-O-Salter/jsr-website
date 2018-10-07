@@ -12,8 +12,8 @@
                 <div class="banner_navbar_dropdown_button"> ROOMS </div>
                 <div class="banner_navbar_dropdown_items">
                     <?php
-                    foreach ($rooms as $room) {
-                       echo '<a href=\'./rooms.php?room_id=' . $room->id . '\'>' . $room->name . '</a>';
+                    foreach ($rooms as $header_room) {
+                       echo '<a href=\'./rooms.php?room_id=' . $header_room->id . '\'>' . $header_room->name . '</a>';
                     }
                     ?>
                 </div>
