@@ -1,3 +1,7 @@
+.banner_navbar_dropdown_items button:hover, .banner_navbar_button:hover, .container {
+  box-shadow: 0 7px 11px 0 rgba(0, 0, 0, 0.2), 0 9px 23px 0 rgba(0, 0, 0, 0.19);
+}
+
 .container {
   border-style: solid;
   border-width: 5px;
@@ -45,10 +49,6 @@
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-}
-
-.banner_navbar_dropdown_items button:hover, .banner_navbar_button:hover {
-  box-shadow: 0 7px 11px 0 rgba(0, 0, 0, 0.2), 0 9px 23px 0 rgba(0, 0, 0, 0.19);
 }
 
 .banner_navbar_dropdown {
