@@ -57,12 +57,13 @@
 }
 
 .banner_navbar_dropdown_items {
+  margin: 0px;
+  padding: 0px;
   display: none;
   position: absolute;
 }
 
 .banner_navbar_dropdown_items button {
-  margin: 0px;
   display: block;
 }
 
