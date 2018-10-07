@@ -5,7 +5,7 @@
     $rooms_room = $rooms[$rooms_room_id - 1];
     echo '<br> rooms_ROOM_ID = ' . $rooms_room_id . '<br>';
     echo '<br> ROOM_DUMP = ';
-    var_dump($room);
+    var_dump($rooms_room);
     echo '<br>';
     echo '<br> ACTUAL_rooms_ROOM_ID = ' . $rooms_room->id . '<br>';
     echo '<br> ACTUAL_ROOM_NAME = ' . $rooms_room->name . '<br>';
