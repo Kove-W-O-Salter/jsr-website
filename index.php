@@ -11,7 +11,7 @@
             <div class="about">
                 <?php
                 $handle = fopen('./about.txt', 'r');
-                echo freed($handle, file_size($handle));
+                echo freed($handle, filesize($handle));
                 fclose($handle);
                 ?>
             </div>
