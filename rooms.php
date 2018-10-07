@@ -18,8 +18,14 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
             <?php echo '<center><h1>' . $rooms_room->name . '</h1></center>'; ?>
             <div class='slideShow'>
                 <?php
-                foreach ($rooms_room->images->children() as $image) {
-                    echo '<img class=\'mySlides\' src=\'./images/' . $image . '\'>';
+                $rooms_room_images = $rooms_room->images->children();
+                
+                if (empty($rooms_rooms_images)) {
+                    echo 'No images available.'
+                } else {
+                    foreach ($rooms_room_images as $image) {
+                        echo '<img class=\'mySlides\' src=\'./images/' . $image . '\'>';
+                    }
                 }
                 ?>
 
