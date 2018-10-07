@@ -52,7 +52,7 @@
 }
 
 .banner_navbar_button:hover {
-  background-color: #009900;
+  background-color: #00b300;
 }
 
 .banner_navbar_dropdown {
@@ -74,7 +74,7 @@
 }
 
 .banner_navbar_dropdown_items button:hover {
-  background-color: #009900;
+  background-color: #00b300;
 }
 
 .banner_navbar_dropdown:hover .banner_navbar_dropdown_items {
