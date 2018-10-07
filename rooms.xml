@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rooms>
 	<room>
-		<id>1</id>
+		<id>0</id>
 		<name>Room 1</name>
 		<description>
 			This is the first room.
@@ -9,7 +9,7 @@
 		</description>
 	</room>
 	<room>
-		<id>2</id>
+		<id>1</id>
 		<name>Room 2</name>
 		<description>
 			This is the first room.
@@ -17,7 +17,7 @@
 		</description>
 	</room>
 	<room>
-		<id>3</id>
+		<id>2</id>
 		<name>Room 3</name>
 		<description>
 			This is the first room.
@@ -25,7 +25,7 @@
 		</description>
 	</room>
 	<room>
-		<id>4</id>
+		<id>3</id>
 		<name>Room 4</name>
 		<description>
 			This is the first room.
@@ -33,7 +33,7 @@
 		</description>
 	</room>
 	<room>
-		<id>5</id>
+		<id>4</id>
 		<name>Room 5</name>
 		<description>
 			This is the first room.
@@ -41,7 +41,7 @@
 		</description>
 	</room>
 	<room>
-		<id>6</id>
+		<id>5</id>
 		<name>Room 6</name>
 		<description>
 			This is the first room.
@@ -49,7 +49,7 @@
 		</description>
 	</room>
 	<room>
-		<id>7</id>
+		<id>6</id>
 		<name>Room 7</name>
 		<description>
 			This is the first room.
