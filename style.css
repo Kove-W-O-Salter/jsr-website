@@ -48,7 +48,7 @@
 }
 
 .banner_navbar_button:hover {
-  width: 110px;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .banner_navbar_dropdown {
@@ -65,10 +65,9 @@
   display: block;
 }
 
-.banner_navbar_dropdown_items button:hover {
-  width: 110px;
+.banner_navbar_dropdown_items {
+  box-shadow: 10px 10px 5px grey;
 }
-
 .banner_navbar_dropdown:hover .banner_navbar_dropdown_items {
   display: block;
 }
