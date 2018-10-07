@@ -10,6 +10,8 @@ $rooms_room = $global_rooms[$rooms_requested_room_id]; //echo 'Bad id'; //die ('
 echo '<br>';
 var_dump($rooms_room);
 echo '<br>';
+
+$rooms_room = 
 ?>
 
 <!DOCTYPE html>
