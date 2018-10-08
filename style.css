@@ -52,6 +52,10 @@
   background-color: #00b300;
 }
 
+.normal_button:focus {
+  outline: none;
+}
+
 .banner_navbar_button:hover {
   background-color: #00b300;
 }
