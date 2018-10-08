@@ -105,6 +105,8 @@
   margin-top: 5px;
   display: none;
   width: 100%;
+  border-style: solid;
+  border-width: 1px;
   border-color: #009000;
 }
 
