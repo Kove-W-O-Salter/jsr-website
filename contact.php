@@ -6,7 +6,7 @@ $contact_info = simplexml_load_file('/app/content/contact.xml');
 <html>
     <head>
         <meta charset="UTF-8">
-    	<link rel="stylesheet" href="/app/style.css">
+    	<link rel="stylesheet" href="/style.css">
     </head>
     <body>
         <?php require '/app/header.php'; ?>
