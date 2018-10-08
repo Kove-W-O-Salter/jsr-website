@@ -9,7 +9,6 @@ function slideshow($slideshow_images) {
         echo '<center>No images available.</center>';
     } else {
         foreach ($slideshow_images->children() as $image) {
-        	echo $image . '<br>';
             echo '<img class=\'mySlides\' src=\'/images/' . $image . '\'>';
         }
 
@@ -19,7 +18,8 @@ function slideshow($slideshow_images) {
 
     echo '</div>';
     echo '<script>';
-    echo 'var slideIndex = 1;
+    echo '
+var slideIndex = 1;
 showDivs(slideIndex);
 
 function plusDivs(n) {
@@ -35,7 +35,8 @@ function showDivs(n) {
         x[i].style.display = "none"; 
     }
     x[slideIndex-1].style.display = "block"; 
-}';
+}
+';
 	echo '</script>';
 }
 ?>
