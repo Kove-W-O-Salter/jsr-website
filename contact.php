@@ -1,7 +1,7 @@
 <?php
+require './global.php';
 $contact_info = simplexml_load_file('./content/contact.xml');
 ?>
-<?php require './global.php'; ?>
 <!DOCTYPE html>
 <html>
     <head>
