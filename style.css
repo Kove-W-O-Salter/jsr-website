@@ -66,6 +66,7 @@
 }
 
 .banner_navbar_dropdown_items {
+  text-align: center;
   display: none;
   position: absolute;
 }
