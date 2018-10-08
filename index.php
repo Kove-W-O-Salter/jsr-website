@@ -12,6 +12,9 @@
                 <?php
                 $filename = '/app/content/about.html';
                 $handle = fopen($filename, 'r');
+                $images = simplexml_load_file('/app/content/index.xml') or die('Couldn\'t load index.xml');
+
+                slideshow($images);
                 echo fread($handle, filesize($filename));
                 fclose($handle);
                 ?>
