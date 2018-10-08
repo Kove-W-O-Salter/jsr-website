@@ -59,6 +59,7 @@
 }
 
 .banner_navbar_dropdown {
+  margin: none;
   position: relative;
   display: inline-block;
   border: none;
@@ -66,12 +67,14 @@
 }
 
 .banner_navbar_dropdown_items {
+  margin: none;
   border: none;
   display: none;
   position: absolute;
 }
 
 .banner_navbar_dropdown_items button {
+  margin: none;
   width: 100%;
   display: block;
 }
