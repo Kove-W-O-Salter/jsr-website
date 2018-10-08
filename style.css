@@ -114,9 +114,10 @@ table {
   border-color: #009000;
 }
 
-th {
+tr {
   border-style: solid;
-  border-width: 1px;
+  border-bottom: 1px;
+  border-top: 1px;
 }
 
 /*# sourceMappingURL=style.css.map */
