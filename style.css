@@ -1,0 +1,109 @@
+.banner_navbar_dropdown_items, .banner_navbar_dropdown_items a:hover, .banner_navbar_dropdown_items:hover, .banner_navbar_button:hover, .normal_button:hover, .container, .slideShow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container, .slideShow {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #009000;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  font-family: "Times New Roman", Times, serif;
+  background-image: "/images/default-background.png";
+}
+
+.banner {
+  text-align: center;
+  text-decoration: none;
+  color: green;
+}
+
+.banner_header {
+  font-size: 500%;
+}
+
+.banner_sub_header {
+  font-size: 90%;
+}
+
+.banner_navbar {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 5px;
+  text-align: left;
+}
+
+.banner_navbar_dropdown_items a, .banner_navbar_dropdown_items, .banner_navbar_button, .normal_button {
+  min-width: 100px;
+  margin-left: 1px;
+  margin-right: 1px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 0px;
+  color: black;
+  background-color: #009000;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.banner_navbar_dropdown_items a:hover, .banner_navbar_dropdown_items:hover, .banner_navbar_button:hover, .normal_button:hover {
+  background-color: #00b300;
+}
+
+.banner_navbar_dropdown_items a:focus, .banner_navbar_dropdown_items:focus, .banner_navbar_button:focus, .normal_button:focus {
+  outline: none;
+}
+
+.banner_navbar_dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.banner_navbar_dropdown_items {
+  margin: 0px;
+  padding: 0px;
+  border-width: 0px;
+  display: none;
+  position: absolute;
+}
+
+.banner_navbar_dropdown_items a {
+  display: block;
+}
+
+.banner_navbar_dropdown:hover .banner_navbar_dropdown_items {
+  display: block;
+}
+
+.about {
+  text-align: left;
+  text-decoration: none;
+  font-size: 100%;
+  color: black;
+}
+
+.slideShow {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.mySlides {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display: none;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=style.css.map */
