@@ -18,6 +18,6 @@ function slideshow($slideshow_images) {
     }
 
     echo '</div>';
-    echo '<script src=\'/js/slideshow.js\'/>';
+    // echo '<script src=\'/js/slideshow.js\'/>';
 }
 ?>

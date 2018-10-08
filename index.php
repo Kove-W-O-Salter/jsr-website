@@ -21,6 +21,7 @@
                 echo fread($handle, filesize($filename));
                 fclose($handle);
                 ?>
+                <script src='/js/slideshow.js'/>
             </div>
         </div>
     </body>

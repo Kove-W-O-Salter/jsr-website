@@ -22,6 +22,7 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
             slideshow($rooms_room_images);
             echo $rooms_room->description;
             ?>
+            <script src='/js/slideshow.js'/>    
     	</div>
     </body>
 </html>
