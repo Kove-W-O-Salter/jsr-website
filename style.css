@@ -66,6 +66,9 @@
 }
 
 .banner_navbar_dropdown_items {
+  padding: 0px;
+  margin: 0px;
+  border-width: 1px;
   width: 100%;
   display: none;
   position: absolute;
