@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
     	<link rel="stylesheet" href="/style.css">
-        <script src='/js/slideshow.js'/>
+        <!-- <script src='/js/slideshow.js'/> -->
     </head>
     <body>
         <?php require '/app/header.php'; ?>
