@@ -48,12 +48,12 @@
   cursor: pointer;
 }
 
-.normal_button:hover {
-  background-color: #00b300;
+.banner_navbar_dropdown_items button:focus, .banner_navbar_dropdown_items:focus, .banner_navbar_button:focus, .normal_button:focus {
+  outline: none;
 }
 
-.normal_button:focus {
-  outline: none;
+.normal_button:hover {
+  background-color: #00b300;
 }
 
 .banner_navbar_button:hover {
