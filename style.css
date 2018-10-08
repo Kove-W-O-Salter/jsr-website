@@ -66,14 +66,14 @@
 .banner_navbar_dropdown_items {
   margin: 0px;
   padding: 0px;
-  border-width: 0px;
-  border-color: nothing;
+  border-width: 1px;
+  border-color: black;
   display: none;
   position: absolute;
 }
 
 .banner_navbar_dropdown_items a {
-  min-width: 160px;
+  min-width: 100px;
   display: block;
 }
 
