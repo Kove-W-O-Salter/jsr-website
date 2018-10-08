@@ -59,22 +59,22 @@
 }
 
 .banner_navbar_dropdown {
-  margin: none;
+  margin: 0px;
   position: relative;
   display: inline-block;
   border: none;
-  padding: none;
+  padding: 0px;
 }
 
 .banner_navbar_dropdown_items {
-  margin: none;
+  margin: 0px;
   border: none;
   display: none;
   position: absolute;
 }
 
 .banner_navbar_dropdown_items button {
-  margin: none;
+  margin: 0px;
   width: 100%;
   display: block;
 }
