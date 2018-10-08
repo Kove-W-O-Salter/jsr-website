@@ -64,6 +64,10 @@
 }
 
 .banner_navbar_dropdown_items {
+  margin: 0px;
+  padding: 0px;
+  border-width: 0px;
+  border-color: nothing;
   display: none;
   position: absolute;
 }
