@@ -10,7 +10,7 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
 <html>
     <head>
         <meta charset="UTF-8">
-    	<link rel="stylesheet" href="/app/style.css">
+    	<link rel="stylesheet" href="/style.css">
     </head>
     <body>
         <?php require '/app/header.php'; ?>
