@@ -13,12 +13,12 @@
                 <div class="banner_navbar_dropdown_items">
                     <?php
                     foreach ($global_rooms as $header_room) {
-                       echo '<button onclick="location.href=\'/rooms.php?room_id=' . $header_room->id . '\'">' . $header_room->name . '</button>';
+                       echo '<button onclick="location.href=\'/routes/rooms.php?room_id=' . $header_room->id . '\'">' . $header_room->name . '</button>';
                     }
                     ?>
                 </div>
             </div>
-            <button onclick="location.href='/contact.php'" class="banner_navbar_button"> CONTACT </button>
+            <button onclick="location.href='/routes/contact.php'" class="banner_navbar_button"> CONTACT </button>
         </div>
     </div>
 </div>
