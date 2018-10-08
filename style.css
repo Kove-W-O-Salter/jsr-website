@@ -36,7 +36,7 @@
   text-align: left;
 }
 
-.banner_navbar_dropdown_items button, .banner_navbar_dropdown_items, .banner_navbar_button, .normal_button {
+.banner_navbar_dropdown_items a, .banner_navbar_dropdown_items, .banner_navbar_button, .normal_button {
   width: 100px;
   margin-left: 1px;
   margin-right: 1px;
@@ -50,11 +50,11 @@
   cursor: pointer;
 }
 
-.banner_navbar_dropdown_items button:hover, .banner_navbar_dropdown_items:hover, .banner_navbar_button:hover, .normal_button:hover {
+.banner_navbar_dropdown_items a:hover, .banner_navbar_dropdown_items:hover, .banner_navbar_button:hover, .normal_button:hover {
   background-color: #00b300;
 }
 
-.banner_navbar_dropdown_items button:focus, .banner_navbar_dropdown_items:focus, .banner_navbar_button:focus, .normal_button:focus {
+.banner_navbar_dropdown_items a:focus, .banner_navbar_dropdown_items:focus, .banner_navbar_button:focus, .normal_button:focus {
   outline: none;
 }
 
@@ -72,8 +72,8 @@
   position: absolute;
 }
 
-.banner_navbar_dropdown_items button {
-  width: 100%;
+.banner_navbar_dropdown_items a {
+  min-width: 160px;
   display: block;
 }
 
