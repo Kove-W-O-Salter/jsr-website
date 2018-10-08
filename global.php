@@ -9,6 +9,7 @@ function slideshow($slideshow_images) {
         echo '<center>No images available.</center>';
     } else {
         foreach ($rooms_room_images->children() as $image) {
+        	echo $image . '<br>';
             echo '<img class=\'mySlides\' src=\'/images/' . $image . '\'>';
         }
 
