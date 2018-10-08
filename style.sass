@@ -48,25 +48,26 @@ $default_button_hover_background: #00b300
     text-decoration: none
     cursor: pointer
 
+%std_button:hover
+    @extend %shadow_box
+    background-color: $default_button_hover_background
+
 %std_button:focus
     outline: none
 
 .normal_button
     @extend %std_button
 
-.normal_button:hover
-    @extend %shadow_box
-    background-color: $default_button_hover_background
-
-// .normal_button:focus
-//     outline: none
+// .normal_button:hover
+    // @extend %shadow_box
+    // background-color: $default_button_hover_background
 
 .banner_navbar_button 
     @extend %std_button
 
-.banner_navbar_button:hover
-    @extend %shadow_box
-    background-color: $default_button_hover_background
+// .banner_navbar_button:hover
+    // @extend %shadow_box
+    // background-color: $default_button_hover_background
 
 .banner_navbar_dropdown
     position: relative
@@ -91,10 +92,10 @@ $default_button_hover_background: #00b300
         width: 100%
         display: block
 
-.banner_navbar_dropdown_items
-    button:hover
-        @extend %shadow_box
-        background-color: $default_button_hover_background
+// .banner_navbar_dropdown_items
+//     button:hover
+//         @extend %shadow_box
+//         background-color: $default_button_hover_background
 
 .banner_navbar_dropdown:hover .banner_navbar_dropdown_items
     display: block

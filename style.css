@@ -1,4 +1,4 @@
-.banner_navbar_dropdown_items button:hover, .banner_navbar_button:hover, .normal_button:hover, .container, .slideShow {
+.banner_navbar_dropdown_items button:hover, .banner_navbar_dropdown_items:hover, .banner_navbar_button:hover, .normal_button:hover, .container, .slideShow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -48,16 +48,12 @@
   cursor: pointer;
 }
 
+.banner_navbar_dropdown_items button:hover, .banner_navbar_dropdown_items:hover, .banner_navbar_button:hover, .normal_button:hover {
+  background-color: #00b300;
+}
+
 .banner_navbar_dropdown_items button:focus, .banner_navbar_dropdown_items:focus, .banner_navbar_button:focus, .normal_button:focus {
   outline: none;
-}
-
-.normal_button:hover {
-  background-color: #00b300;
-}
-
-.banner_navbar_button:hover {
-  background-color: #00b300;
 }
 
 .banner_navbar_dropdown {
@@ -77,10 +73,6 @@
 .banner_navbar_dropdown_items button {
   width: 100%;
   display: block;
-}
-
-.banner_navbar_dropdown_items button:hover {
-  background-color: #00b300;
 }
 
 .banner_navbar_dropdown:hover .banner_navbar_dropdown_items {
