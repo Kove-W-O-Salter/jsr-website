@@ -8,7 +8,7 @@ function slideshow($slideshow_images) {
     if ($slideshow_images->count() == 0) {
         echo '<center>No images available.</center>';
     } else {
-        foreach ($rooms_room_images->children() as $image) {
+        foreach ($slideshow_images->children() as $image) {
         	echo $image . '<br>';
             echo '<img class=\'mySlides\' src=\'/images/' . $image . '\'>';
         }
