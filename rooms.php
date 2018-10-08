@@ -1,6 +1,6 @@
 
 <?php
-require './global.php';
+require '/app/global.php';
 
 $rooms_room_id = $_GET['room_id'];
 $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the id \'' . $rooms_room_id . '\', exists.');
@@ -10,10 +10,10 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
 <html>
     <head>
         <meta charset="UTF-8">
-    	<link rel="stylesheet" href="./style.css">
+    	<link rel="stylesheet" href="/app/style.css">
     </head>
     <body>
-        <?php require './header.php'; ?>
+        <?php require '/app/header.php'; ?>
     	<div class='container'>
             <?php echo '<center><h1>' . $rooms_room->name . '</h1></center>'; ?>
             <div class='slideShow'>
@@ -24,7 +24,7 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
                     // echo 'No images available.';
                 // } else {
                     foreach ($rooms_room_images->children() as $image) {
-                        echo '<img class=\'mySlides\' src=\'./images/' . $image . '\'>';
+                        echo '<img class=\'mySlides\' src=\'/app/images/' . $image . '\'>';
                     }
                 // }
                 ?>

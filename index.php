@@ -1,16 +1,16 @@
-<?php require './global.php'; ?>
+<?php require '/app/global.php'; ?>
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
-    	<link rel="stylesheet" href="./style.css">
+    	<link rel="stylesheet" href="/app/style.css">
     </head>
     <body>
-        <?php require './header.php'; ?>
+        <?php require '/app/header.php'; ?>
         <div class="container">
             <div class="about">
                 <?php
-                $filename = './content/about.html';
+                $filename = '/app/content/about.html';
                 $handle = fopen($filename, 'r');
                 echo fread($handle, filesize($filename));
                 fclose($handle);
