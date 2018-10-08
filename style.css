@@ -37,7 +37,7 @@
 }
 
 .banner_navbar_dropdown_items a, .banner_navbar_dropdown_items, .banner_navbar_button, .normal_button {
-  width: 100px;
+  min-width: 100px;
   margin-left: 1px;
   margin-right: 1px;
   padding: 5px;
