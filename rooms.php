@@ -20,7 +20,7 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
                 <?php
                 $rooms_room_images = $rooms_room->images;
 
-                if ($rooms_rooms_images->count() == 0) {
+                if ($rooms_room_images->count() == 0) {
                     echo '<center>No images available.</center>';
                 } else {
                     foreach ($rooms_room_images->children() as $image) {
