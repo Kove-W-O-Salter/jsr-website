@@ -4,7 +4,6 @@
     <head>
         <meta charset="UTF-8">
     	<link rel="stylesheet" href="/style.css">
-        <!-- <script src='/js/slideshow.js'/> -->
     </head>
     <body>
         <?php require '/app/header.php'; ?>
@@ -24,5 +23,6 @@
                 ?>
             </div>
         </div>
+        <script src='/js/slideshow.js'/>
     </body>
 </html>
