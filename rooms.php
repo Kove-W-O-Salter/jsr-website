@@ -24,7 +24,7 @@ $rooms_room = $global_rooms[$rooms_room_id - 1] or die('No such room, with the i
                     // echo 'No images available.';
                 // } else {
                     foreach ($rooms_room_images->children() as $image) {
-                        echo '<img class=\'mySlides\' src=\'/app/images/' . $image . '\'>';
+                        echo '<img class=\'mySlides\' src=\'/images/' . $image . '\'>';
                     }
                 // }
                 ?>
