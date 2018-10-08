@@ -109,4 +109,10 @@
   width: 100%;
 }
 
+img {
+  border-style: solid;
+  border-width: 5px;
+  border-radious: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
