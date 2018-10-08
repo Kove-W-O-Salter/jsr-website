@@ -10,7 +10,8 @@
             <!-- <button onclick="location.href='/'" class="banner_navbar_button"> HOME </button> -->
             <a href="/" class="banner_navbar_button"> HOME </a>
             <div class="banner_navbar_dropdown">
-                <button class="banner_navbar_button"> ROOMS &#x25BC; </button>
+                <!-- <button class="banner_navbar_button"> ROOMS &#x25BC; </button> -->
+                <a class="banner_navbar_button"> ROOMS &#x25BC; </a>
                 <div class="banner_navbar_dropdown_items">
                     <?php
                     foreach ($global_rooms as $header_room) {
