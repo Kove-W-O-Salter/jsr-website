@@ -23,6 +23,5 @@
                 ?>
             </div>
         </div>
-        <script src='/js/slideshow.js'/>
     </body>
 </html>
