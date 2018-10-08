@@ -7,11 +7,9 @@
             John Salter Rooms
         </div>
         <div class="banner_navbar">
-            <!-- <button onclick="location.href='/'" class="banner_navbar_button"> HOME </button> -->
-            <a href="/" class="banner_navbar_button"> HOME </a>
+            <button onclick="location.href='/'" class="banner_navbar_button"> HOME </button>
             <div class="banner_navbar_dropdown">
-                <!-- <button class="banner_navbar_button"> ROOMS &#x25BC; </button> -->
-                <a class="banner_navbar_button"> ROOMS &#x25BC; </a>
+                <button class="banner_navbar_button"> ROOMS &#x25BC; </button>
                 <div class="banner_navbar_dropdown_items">
                     <?php
                     foreach ($global_rooms as $header_room) {
@@ -20,10 +18,8 @@
                     ?>
                 </div>
             </div>
-            <!-- <button onclick="location.href='/routes/contact.php'" class="banner_navbar_button"> CONTACT </button> -->
-            <a href="/routes/contact.php" class="banner_navbar_button"> CONTACT </a>
-<!--             <button onclick="location.href='https://github.com/Kove-W-O-Salter/jsr-website#readme'" class="banner_navbar_button"> WEBSITE </button> -->
-            <a href="https://github.com/Kove-W-O-Salter/jsr-website#readme" class="banner_navbar_button"> WEBSITE </a>
+            <button onclick="location.href='/routes/contact.php'" class="banner_navbar_button"> CONTACT </button>
+            <button onclick="location.href='https://github.com/Kove-W-O-Salter/jsr-website#readme'" class="banner_navbar_button"> WEBSITE </button>
         </div>
     </div>
 </div>
