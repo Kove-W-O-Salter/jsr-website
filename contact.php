@@ -1,5 +1,5 @@
 <?php
-require './global.php';
+require '/app/global.php';
 $contact_info = simplexml_load_file('./content/contact.xml');
 ?>
 <!DOCTYPE html>
