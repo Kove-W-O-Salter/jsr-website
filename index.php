@@ -4,6 +4,7 @@
     <head>
         <meta charset="UTF-8">
     	<link rel="stylesheet" href="/style.css">
+        <script src='/js/slideshow.js'/>
     </head>
     <body>
         <?php require '/app/header.php'; ?>
@@ -21,7 +22,6 @@
                 echo fread($handle, filesize($filename));
                 fclose($handle);
                 ?>
-                <script src='/js/slideshow.js'/>
             </div>
         </div>
     </body>
