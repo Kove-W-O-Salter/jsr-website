@@ -19,6 +19,7 @@
                 </div>
             </div>
             <button onclick="location.href='/routes/contact.php'" class="banner_navbar_button"> CONTACT </button>
+            <button onclick="location.href='https://github.com/Kove-W-O-Salter/jsr-website#readme'" class="banner_navbar_button"> WEBSITE </button>
         </div>
     </div>
 </div>
