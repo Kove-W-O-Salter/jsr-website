@@ -10,7 +10,7 @@
         <div class="container">
             <div class="about">
                 <?php
-                $filename = './about.html';
+                $filename = './content/about.html';
                 $handle = fopen($filename, 'r');
                 echo fread($handle, filesize($filename));
                 fclose($handle);
