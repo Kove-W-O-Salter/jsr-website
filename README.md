@@ -1,1 +1,3 @@
 # jsr-website
+
+This is some old obsolete code for a website that I was going to write for my grandfather. It was never finished. None of the code in this repository is well formatted nor well designed. I have learnt a lot since I wrote it. The most important being, I really don't like PHP. Please don't file any P.R.s as the will not be read. The only reason I haven't deleted this repo is that it contains around 3 days of me learning PHP; I cannot bring myself to destroy history. At the very least it shall fester hear as a reminder that really don't like PHP and that I should never use it again. Ever!
